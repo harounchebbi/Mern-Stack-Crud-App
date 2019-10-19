@@ -1,0 +1,62 @@
+.Table-Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 80%;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+thead {
+  background-color: #6D7AE0;
+  border-radius: 100px;
+}
+
+tr {
+  height: 53px;
+}
+
+tr:nth-child(even) {
+  background-color: #F8F6FF;
+}
+
+th {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+}
+
+td {
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 1rem;
+  color: #808080;
+  line-height: 1.4;
+}
+
+.No-Students {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Spinner-Wrapper {
+  display: flex; 
+  justify-content: center; 
+  height: 100vh;
+  align-items: center;
+}
