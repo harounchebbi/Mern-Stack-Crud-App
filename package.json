@@ -19,7 +19,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "helmet": "^3.12.1",
-    "mongoose": "^5.2.1",
+    "mongoose": "^5.7.5",
     "prop-types": "^15.7.2",
     "react-avatar": "^3.6.0"
   },
