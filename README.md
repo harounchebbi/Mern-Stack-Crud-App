@@ -18,7 +18,7 @@ npm install
 
 - Backend
 ```shell
-node server.js
+npm start
 ```
 
 - Frontend
