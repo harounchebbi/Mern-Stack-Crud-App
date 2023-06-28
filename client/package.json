@@ -5,10 +5,11 @@
   "dependencies": {
     "axios": "^0.21.2",
     "react": "^17.0.1",
+    "react-avatar": "^5.0.3",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "react-spinners": "^0.9.0",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.13.8",
     "react-toastify": "^6.1.0"
   },
   "scripts": {
@@ -17,7 +18,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://host.docker.internal:5000",
   "browserslist": {
     "production": [
       ">0.2%",
