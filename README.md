@@ -12,8 +12,7 @@ This is a simple crud project for beginners built with the following technologie
 ```shell
 npm install
 ```
-
-
+- Update the port `server.js` and `client/package.json` together if necessary in case of port unavailability
 ## Usage
 
 - Backend
