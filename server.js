@@ -4,7 +4,7 @@ const path = require('path');
 require('./models/db');
 const app = express();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5500;//changed server port to 5500
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -22,4 +22,4 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.listen(PORT, () => console.log(`App running on port ${PORT}`)  );
+app.listen(PORT, () => console.log(`App running on port ${PORT}`)  );vv
